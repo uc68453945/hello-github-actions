@@ -2,6 +2,8 @@ name: A workflow for my Hello World file
 on: 
   push:
   pull_request:
+  pull_request_review:
+  pull_request_review_comment:
 jobs:
   build:
     name: Hello world action
