@@ -1,5 +1,7 @@
 name: A workflow for my Hello World file
-on: push
+on: 
+  push
+  pull_request_review
 jobs:
   build:
     name: Hello world action
